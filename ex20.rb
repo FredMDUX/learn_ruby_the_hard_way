@@ -8,7 +8,7 @@ end
 
 def rewind(f)
   # Returns the current position in dir. See also Dir#seek.
-  f.seek(0)
+  f.seek(0) # moving to the start of the file
 end
 
 def print_a_line(line_count, f)
