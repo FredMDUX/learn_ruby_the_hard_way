@@ -27,8 +27,9 @@ rewind(current_file)
 
 puts "Let's print three lines:"
 
-current_line = 0
-while current_line <= 2
+current_line = 1
+while current_line <= 3
+  print "We are on line #{current_line}: "
   print_a_line(current_line, current_file)
   current_line += 1
 end
