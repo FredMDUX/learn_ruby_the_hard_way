@@ -1,6 +1,6 @@
 class Song
 
-  def initialize(lyrics)
+  def initialize(lyrics, title, author)
     @lyrics = lyrics
     @title = title
     @author = author
